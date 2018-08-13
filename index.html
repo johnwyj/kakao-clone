@@ -4,13 +4,16 @@
     <meta charset="utf-8">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <title>Friends</title>
+    <link rel="stylesheet" href="css/style.css">
+
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header__top">
-        <div class="header__column"></div>
-        <i class="fas fa-plane"></i>
-        <i class="fas fa-wifi"></i>
+        <div class="header__column">
+          <i class="fas fa-plane"></i>
+          <i class="fas fa-wifi"></i>
+        </div>
         <div class="header__column">
           <span class="header__time">22:04</span>
         </div>
@@ -27,7 +30,7 @@
         </div>
         <div class="header__column">
           <span class="header__text">Friends
-            <span class="header number">1</span>
+            <span class="header__number">1</span>
         </span>
         </div>
         <div class="header__column">
@@ -45,10 +48,10 @@
           <h6 class="friends__section-title">My Profile</h6>
         </header>
         <div class="friends__section-rows">
-          <div class="friends__sectione-row">
-            <a href="profile.html">
-             <img src="images/avatar.jpg" alt="">
-             <span class="friends__section-name">John Jang</span>
+          <div class="friends__section-row">
+            <img src="images/avatar.jpg" alt="">
+            <a href="profile.html" class="friends__section-name">
+             John Jang
             </a>
           </div>
           <div class="friends__section-row">
@@ -59,11 +62,11 @@
       </section>
       <section class="friends__section">
         <header class="friends__section-header">
-          <h6 class="friends__section-title"></h6>
+          <h6 class="friends__section-title">Friends</h6>
         </header>
         <div class="friends__section-rows">
-          <div class="friends__sectione-row">
-            <div class="friends__sectione-column">
+          <div class="friends__section-row with-tagline">
+            <div class="friends__section-column">
             <img src="images/avatar.jpg" alt="">
             <span class="friends__section-name">Wooyoung Jang</span>
           </div>
@@ -74,7 +77,7 @@
       </section>
     </main>
     <nav class="tab-bar">
-      <a href="index.html" class="tab-bar__tab tab-bar--selected">
+      <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
       <i class="fas fa-user"></i>
       <span class="tab-bar__title">Friends</span>
       </a>
