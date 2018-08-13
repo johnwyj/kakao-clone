@@ -39,3 +39,7 @@
   border-radius: 5px;
   color: rgb(242, 234, 230);
 }
+
+.friends__section .friends__section-row a {
+  color: black;
+}
