@@ -11,11 +11,14 @@
   border: 0;
   color: #abc4dd;
   background-color: #354555;
+  border: 1px solid transparent;
   text-align: center;
+  transition: border-color 0.5s linear;
 }
 
-.search-bar input {
+.search-bar input:focus {
   outline: none;
+  border: 1px solid #ffe934;
 }
 
 .search-bar i {
