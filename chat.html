@@ -6,8 +6,8 @@
     <title>Chat</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <header class="top-header">
+  <body class="body-chat">
+    <header class="top-header chat-header">
       <div class="header__top">
         <div class="header__column">
         <i class="fas fa-plane"></i>
@@ -42,38 +42,31 @@
 
     <main class="chat">
       <div class="date-divider">
-        <span class="date-divider__text">
-          Wednesday, August 2, 2017
-        </span>
+        <span class="date-divider__text">Wednesday, August 2, 2017</span>
       </div>
-      <div class="chat__message chat message--from">
-        <span class="chat message-time">21:26</span>
+      <div class="chat__message chat__message-from-me">
+        <span class="chat__message-time">21:26</span>
         <span class="chat__message-body">Hello! this is a test message.</span>
       </div>
-      <div class="date-divider">
-        <span class="date-divider__text">
-          Wednesday, August 2, 2017
-        </span>
-      </div>
-      <div class="chat__message chat message--to">
+      <div class="chat__message chat__message--to-me">
         <img src="images/avatar.jpg" class="chat__message-avatar">
         <div class="chat__message-center">
           <h3 class="chat__message-username">Wooyoung Jang</h3>
+          <span class="chat__message-body">
+            And this is an answer.
+          </span>
         </div>
-        <span class="chat__message-body">
-          And this is an answer.
-        </span>
-        <span class="chat message-time">21:29</span>
+        <span class="chat__message-time">21:29</span>
       </div>
     </main>
 
     <div class="type-message">
-      <i class="fas fa-plus fa-2x"></i>
+      <i class="fas fa-plus fa-lg"></i>
       <div class="type-message__input">
         <input type="text" name="" value="">
-        <i class="far fa-smile"></i>
+        <i class="far fa-smile fa-lg"></i>
         <span class="record-message">
-          <i class="fas fa-microphone"></i>
+          <i class="fas fa-microphone fa-lg"></i>
         </span>
       </div>
     </div>
